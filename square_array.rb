@@ -2,7 +2,7 @@ def square_array(array)
   newArray = []
   array.each do |numbers|
     numbers=numbers**2
-    array << numbers
+    newArray << numbers
   end
   array
 end
